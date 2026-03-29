@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Positioning & Inventory</title>
+    <link rel="stylesheet" href="2504638.css" />
+</head>
+<body>
+    <h1>QR Positioning</h1>
+
+    <!-- Map container -->
+    <div id="mapContainer">
+        <img src="map.png" id="map" alt="map" />
+        <div id="marker"></div>
+    </div>
+
+    <!-- Scanner button -->
+    <button id="btn" onclick="toggleScanner()">SCAN</button>
+
+    <!-- Camera view -->
+    <div id="camera"></div>
+
+    <!-- Inventory display -->
+    <div id="inventory"></div>
+
+    <!-- QR code library -->
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="2504638.js"></script>
+</body>
+</html>
